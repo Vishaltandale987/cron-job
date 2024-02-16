@@ -14,6 +14,6 @@ cron.schedule("* * * * * *", () => {
 
 
 
-app.listen(process.env.port, () => {
-  console.log(`Connected with Database and live on port ${process.env.port}`);
+app.listen(8000, () => {
+  console.log(`Connected with Database and live on port 8000`);
 });
